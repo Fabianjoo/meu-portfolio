@@ -28,7 +28,7 @@ main.conteiner{
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
 
