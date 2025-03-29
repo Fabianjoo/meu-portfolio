@@ -21,6 +21,7 @@ nav > ul > li{
 
 nav > ul > li:hover{
     background-color: #342E46;
+    text-decoration: underline;
 }
 
 main.conteiner{
@@ -80,6 +81,10 @@ main.conteiner > section#sobre > div#redes > a{
     color: white;
     background-color: #342E46;
     text-decoration: none;
+}
+
+main.conteiner > section#sobre > div#redes > a:hover{
+    background-color: #1A2130;
 }
 
 main.conteiner > section#sobre > div#redes > a > img{
