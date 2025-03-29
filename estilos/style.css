@@ -2,12 +2,12 @@
 
 *{
     padding: 0px;
-    margin: 0px;
+    margin: 0px;  
 }
 
 header{
     background-color: #1A2130;
-    width: 99vw;
+    width: 100vw;
 }
 
 nav > ul > li{
@@ -23,8 +23,8 @@ nav > ul > li:hover{
 
 main.conteiner{
     background-color: #1A2130;
-    height: 99vh;
-    width: 99vw;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -55,6 +55,37 @@ main.conteiner > section#sobre > p{
     text-indent: 20px;
 }
 
+main.conteiner > section#sobre > div#redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+main.conteiner > section#sobre > div#redes > a{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+
+    padding: 5px;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: #342E46;
+    text-decoration: none;
+}
+
+main.conteiner > section#sobre > div#redes > a > img{
+    width: 60px;
+    height: 60px;
+    padding-right: 10px;
+}
+
 main.conteiner > section#imagem{
     width: 400px;
     height: 400px;
@@ -69,36 +100,4 @@ main.conteiner > section#imagem > img{
     height: 400px;
     border-radius: 20px;
     transform: translate(-30px,30px);
-}
-
-main.conteiner > section#redes{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-}
-
-main.conteiner > section#redes > a > img{
-    width: 60px;
-    height: 60px;
-    padding-right: 10px;
-}
-
-main.conteiner > section#redes > a{
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-    font-size: 1.5em;
-    margin-right: 50px;
-    padding: 10px;
-
-    border: 2px solid black;
-    border-radius: 20px;
-    color: white;
-    background-color: #342E46;
-    text-decoration: none;
-}
-
-main.conteiner > section#redes > a:hover{
-    background-color: #272432;
 }
