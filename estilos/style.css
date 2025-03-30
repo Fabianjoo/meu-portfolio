@@ -6,6 +6,10 @@
     box-sizing: border-box; 
 }
 
+body{
+    overflow: hidden;
+}
+
 header{
     background-color: #1A2130;
     width: 100%;
@@ -25,9 +29,9 @@ nav > ul > li:hover{
 }
 
 main.conteiner{
-    background-color: #1A2130;
+    background-image: linear-gradient(to bottom, #1A2130, #342E46);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -43,6 +47,7 @@ main.conteiner > section#sobre{
     width: 40%;
     text-align: justify;
     text-indent: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
 }
 
 main.conteiner > section#sobre > h1{
@@ -91,6 +96,7 @@ main.conteiner > section#sobre > div#redes > a > img{
     width: 60px;
     height: 60px;
     padding-right: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
 }
 
 main.conteiner > section#imagem{
@@ -99,7 +105,6 @@ main.conteiner > section#imagem{
     margin: 50px;
     border: 3px solid darkblue;
     border-radius: 20px;
-    
 }
 
 main.conteiner > section#imagem > img{
