@@ -18,6 +18,7 @@
         padding: 15px;
         width: 90%;
         margin-top: 20px;
+        flex: 0 1 auto;
        
     }
 
@@ -32,8 +33,7 @@
     }
 
     main.conteiner > section#sobre > div#redes > a{
-        width: 60%;
-        flex: auto;
+        flex: 0 1 auto;
     }
     main.conteiner > section#sobre > div#redes > a > img{
         flex: 0 1 auto;
