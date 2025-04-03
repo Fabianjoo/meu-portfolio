@@ -8,6 +8,7 @@
 
 body, html{
     overflow: hidden;
+    background-image: linear-gradient(to bottom, #1A2130, #342e46);
 }
 
 header{
@@ -29,7 +30,6 @@ nav > ul > li:hover{
 }
 
 main.conteiner{
-    background-image: linear-gradient(to bottom, #1A2130, #342e46);
     height: 100vh;
     width: 100vw;
     display: flex;
