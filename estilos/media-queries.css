@@ -17,17 +17,17 @@
     main.conteiner > section#sobre{
         padding: 15px;
         width: 90%;
-        margin-top: 20px;
-       
+        margin-top: 10px;
     }
 
     main.conteiner > section#imagem{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
+        margin-top: 7px;
     }
     
     main.conteiner > section#imagem > img{
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 }
