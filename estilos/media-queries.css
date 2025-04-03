@@ -1,2 +1,27 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 970px){
+    main.conteiner{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main.conteiner > section#sobre{
+        padding: 15px;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    main.conteiner > section#imagem{
+        width: 300px;
+        height: 300px;
+    }
+    
+    main.conteiner > section#imagem > img{
+        width: 300px;
+        height: 300px;
+    }
+    
+}
