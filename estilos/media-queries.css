@@ -20,6 +20,14 @@
         margin-top: 10px;
     }
 
+    main.conteiner > section#sobre > div#redes{
+        flex-flow: row wrap;
+    }
+
+    main.conteiner > section#sobre > div#redes > a{
+        margin-bottom: 5px;
+    }
+
     main.conteiner > section#imagem{
         width: 250px;
         height: 250px;
