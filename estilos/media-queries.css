@@ -12,6 +12,7 @@
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+        font-size: 0.76em;
     }
 
     main.conteiner > section#sobre{
@@ -29,13 +30,13 @@
     }
 
     main.conteiner > section#imagem{
-        width: 250px;
-        height: 250px;
+        width: 229px;
+        height: 229px;
         margin-top: 7px;
     }
     
     main.conteiner > section#imagem > img{
-        width: 250px;
-        height: 250px;
+        width: 229px;
+        height: 229px;
     }
 }
