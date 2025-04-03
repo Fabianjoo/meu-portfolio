@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 970px){
 
-    body{
+    body, html{
         overflow: auto;
         overflow-x: hidden;
     }
@@ -12,13 +12,13 @@
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+        min-height: 100vh;
     }
 
     main.conteiner > section#sobre{
         padding: 15px;
         width: 90%;
         margin-top: 20px;
-        flex: 0 1 auto;
        
     }
 
@@ -31,12 +31,4 @@
         width: 300px;
         height: 300px;
     }
-
-    main.conteiner > section#sobre > div#redes > a{
-        flex: 0 1 auto;
-    }
-    main.conteiner > section#sobre > div#redes > a > img{
-        flex: 0 1 auto;
-    }
-    
 }
