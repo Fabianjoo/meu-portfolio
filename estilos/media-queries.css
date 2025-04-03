@@ -1,6 +1,12 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 970px){
+
+    body{
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
     main.conteiner{
         display: flex;
         flex-flow: row wrap;
@@ -22,6 +28,10 @@
     main.conteiner > section#imagem > img{
         width: 300px;
         height: 300px;
+    }
+
+    main.conteiner > section#sobre > div#redes > a{
+        width: 50%;
     }
     
 }
