@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 970px){
-
     body, html{
         overflow: auto;
         overflow-x: hidden;
@@ -33,13 +31,12 @@
     }
 
     main.conteiner > section#imagem{
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
         margin-top: 7px;
     }
     
     main.conteiner > section#imagem > img{
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
-}
