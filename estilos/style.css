@@ -11,6 +11,11 @@ body, html{
     background-image: linear-gradient(to bottom, #1A2130, #342e46);
 }
 
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
 header{
     background-color: #1A2130;
     width: 100%;
