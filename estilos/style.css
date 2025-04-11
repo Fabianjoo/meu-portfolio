@@ -91,12 +91,12 @@ main.conteiner > section#sobre > div#redes > a{
     border: 2px solid black;
     border-radius: 20px;
     color: white;
-    background-color: #342E46;
+    background-color: black;
     text-decoration: none;
 }
 
 main.conteiner > section#sobre > div#redes > a:hover{
-    background-color: #1A2130;
+    background-color: rgba(0, 0, 0, 0.432);
 }
 
 main.conteiner > section#sobre > div#redes > a > img{
